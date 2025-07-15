@@ -1,0 +1,75 @@
+.main_container {
+  background-color: var(--secondary-color);
+}
+
+.title {
+  color: var(--primary-color);
+}
+
+.primar-color {
+  color: var(--primary-color);
+}
+
+.second-primary-color {
+  color: var(--second-primary-color);
+}
+
+
+.secondary-color {
+  color: var(--secondary-color);
+}
+
+.bg-light-pink-color {
+  background-color: var(--light-pink-color);
+}
+
+.light-pink-color {
+  color: var(--light-pink-color);
+}
+
+/* common font size */
+
+.font-size-larger {
+  font-size: var(--font-size-larger);
+}
+
+.font-size-large {
+  font-size: var(--font-size-large);
+}
+
+.font-size-medium {
+  font-size: var(--font-size-medium);
+}
+
+.font-size-default {
+  font-size: var(--font-size-default);
+}
+
+.font-size-small {
+  font-size: var(--font-size-small);
+}
+
+@media (max-width: 576px) {
+  .font-size-medium {
+    font-size: var(--font-size-default);
+  }
+}
+
+.card-border {
+  border: 1px solid var(--second-primary-color);
+  box-shadow: rgba(17, 17, 26, 0.05) 0px 1px 0px, rgba(17, 17, 26, 0.1) 0px 0px 8px;
+}
+
+.signin-button {
+  background-color: var(--light-pink-color);
+  color: var(--primary-color);
+  font-weight: bold;
+}
+
+.signin-button:hover,
+.signin-button:focus,
+.signin-button:active {
+  background-color: var(--primary-color);
+  color: white;
+  font-weight: bold;
+}
